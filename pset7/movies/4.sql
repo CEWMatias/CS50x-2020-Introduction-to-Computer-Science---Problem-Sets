@@ -1,0 +1,3 @@
+SELECT COUNT(*) as THE_BEST_MOVIES_WITH_TOP10
+FROM ratings
+WHERE rating = 10.0;
